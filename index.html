@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patriot</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.30/mmenu.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.30/mmenu.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header class="header center">
+        <a class="header__logo">
+            <img src="images/logo.svg" alt="Patriot Logo">
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav-list header__nav_hidden">
+                <li class="header__nav-item"><a href="#">Услуги</a></li>
+                <li class="header__nav-item"><a href="#">Продукция</a></li>
+                <li class="header__nav-item"><a href="#">Проекты</a></li>
+                <li class="header__nav-item"><a href="#">Компания</a></li>
+            </ul>
+            <p class="header__location header__nav_hidden">Санкт-Петербург</p>
+        </nav>
+        <div class="header__contact">
+            <p class="header__phone">+7 (800) 941-34-28</p>
+        </div>
+        <div class="header__burger"></div>
+    </header>
+
+    <main class="main center">
+        <div class="main__container">
+            <section class="hero owl-carousel slider-one owl-theme">
+                <div class="hero__content item">
+                    <p class="hero__title">Patriot — это ключ к успешному бизнесу по всей территории РФ</p>
+                    <p class="hero__description">Роскошный, быстрый, практичный автомобиль на выгодных условиях лизинга.
+                        Станьте ближе к мечте и сократите налог на имущество в три раза.</p>
+                </div>
+                <div class="hero__content item">
+                    <p class="hero__title">Супер Patriot — это ключ к успешному бизй РФ</p>
+                    <p class="hero__description">Роскошный, быстрый, првыгодных условиях лизинга.
+                        Станьте ближе к мечте и сократите налог на имущество в три раза.</p>
+                </div>
+                <div class="hero__content item">
+                    <p class="hero__title">Супер Patriot — это ключ к успешному бизй РФ</p>
+                    <p class="hero__description">Роскошный, быстрый, првыгодных условиях лизинга.
+                        Станьте ближе к мечте и сократите налог на имущество в три раза.</p>
+                </div>
+            </section>
+            <!-- <div class="hero__carousel-controls">
+                <button class="hero__carousel-button">&lt;</button>
+                <button class="hero__carousel-button">&gt;</button>
+            </div> -->
+            <aside class="form">
+                <p class="form__title">Оставить заявку</p>
+                <p class="form__subtitle">Заполните форму и мы свяжемся с вами, чтобы узнать детали вашего проекта.</p>
+                <form class="form__body">
+                    <label for="name" class="form__label">Имя*</label>
+                    <input type="text" id="name" name="name" class="form__input" required>
+
+                    <label for="phone" class="form__label">Телефон*</label>
+                    <input type="tel" id="phone" name="phone" class="form__input" required>
+
+                    <label class="form__checkbox-label">
+                        <input type="checkbox" name="agreement" class="form__checkbox" required>
+                        Я принимаю&nbsp;<a href="#">условия передачи информации</a>
+                    </label>
+
+                    <button type="submit" class="form__button">Связаться с нами</button>
+                </form>
+            </aside>
+            <div class="main__image-placeholder">
+                <img src="images/placeholder.svg" alt="Image Placeholder">
+            </div>
+        </div>
+    </main>
+
+    <section class="rates center">
+        <p class="rates__title">Тарифы</p>
+        <div class="rates__list owl-carousel slider-two owl-theme">
+            <div class="rates__item item">
+                <div class="rates__item-wrp">
+                    <div class="rates__item-header">
+                        <span class="rates__item-badge">АКЦИЯ</span>
+                        <span class="rates__item-badge">НОВИНКА</span>
+                        <span class="rates__item-badge">ХИТ</span>
+                    </div>
+                    <div class="rates__item-body">
+                        <div class="rates__image-placeholder">
+                            <img src="images/placeholder.svg" alt="Image Placeholder">
+                        </div>
+                        <p class="rates__item-title">Лайт</p>
+                        <ul class="rates__item-details">
+                            <li>Visa, Master Card, МИР <strong>3,7%</strong></li>
+                            <li>Apple Pay, Android Pay <strong>3,7%</strong></li>
+                            <li>Электронные кошельки <strong>3,7%</strong></li>
+                            <li>Оборот <strong>от 0 до 200 т.р.</strong></li>
+                        </ul>
+                        <div class="rates__item-price">
+                            <span class="rates__price-old" style="display: none;">120 000 ₽</span>
+                            <span class="rates__price-new">120 000 ₽</span>
+                            <button class="rates__button">Оплатить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rates__item item">
+                <div class="rates__item-wrp">
+                    <div class="rates__item-header">
+                        <span class="rates__item-badge">АКЦИЯ</span>
+                        <span class="rates__item-badge" style="display: none;">НОВИНКА</span>
+                        <span class="rates__item-badge">ХИТ</span>
+                    </div>
+                    <div class="rates__item-body">
+                        <div class="rates__image-placeholder">
+                            <img class="rates__image" src="images/mem.jpg" alt="Image Placeholder">
+                        </div>
+                        <p class="rates__item-title">Лайт</p>
+                        <ul class="rates__item-details">
+                            <li>Visa, Master Card, МИР <strong>3,7%</strong></li>
+                            <li>Apple Pay, Android Pay <strong>3,7%</strong></li>
+                            <li>Электронные кошельки <strong>3,7%</strong></li>
+                            <li>Оборот <strong>от 0 до 200 т.р.</strong></li>
+                        </ul>
+                        <div class="rates__item-price">
+                            <div class="rates__price-wrp">
+                                <span class="rates__price-old" style="display: block;">120 000 ₽</span>
+                                <span class="rates__price-new">120 000 ₽</span>
+                            </div>
+                            <button class="rates__button">Оплатить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rates__item item">
+                <div class="rates__item-wrp">
+                    <div class="rates__item-header">
+                        <span class="rates__item-badge">АКЦИЯ</span>
+                        <span class="rates__item-badge">НОВИНКА</span>
+                        <span class="rates__item-badge">ХИТ</span>
+                    </div>
+                    <div class="rates__item-body">
+                        <div class="rates__image-placeholder">
+                            <img src="images/placeholder.svg" alt="Image Placeholder">
+                        </div>
+                        <p class="rates__item-title">Лайт</p>
+                        <ul class="rates__item-details">
+                            <li>Visa, Master Card, МИР <strong>3,7%</strong></li>
+                            <li>Apple Pay, Android Pay <strong>3,7%</strong></li>
+                            <li>Электронные кошельки <strong>3,7%</strong></li>
+                            <li>Оборот <strong>от 0 до 200 т.р.</strong></li>
+                        </ul>
+                        <div class="rates__item-price">
+                            <span class="rates__price-old" style="display: none;">120 000 ₽</span>
+                            <span class="rates__price-new">120 000 ₽</span>
+                            <button class="rates__button">Оплатить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rates__item item">
+                <div class="rates__item-wrp">
+                    <div class="rates__item-header">
+                        <span class="rates__item-badge">АКЦИЯ</span>
+                        <span class="rates__item-badge">НОВИНКА</span>
+                        <span class="rates__item-badge">ХИТ</span>
+                    </div>
+                    <div class="rates__item-body">
+                        <div class="rates__image-placeholder">
+                            <img src="images/placeholder.svg" alt="Image Placeholder">
+                        </div>
+                        <p class="rates__item-title">Лайт</p>
+                        <ul class="rates__item-details">
+                            <li>Visa, Master Card, МИР <strong>3,7%</strong></li>
+                            <li>Apple Pay, Android Pay <strong>3,7%</strong></li>
+                            <li>Электронные кошельки <strong>3,7%</strong></li>
+                            <li>Оборот <strong>от 0 до 200 т.р.</strong></li>
+                        </ul>
+                        <div class="rates__item-price">
+                            <span class="rates__price-old" style="display: none;">120 000 ₽</span>
+                            <span class="rates__price-new">120 000 ₽</span>
+                            <button class="rates__button">Оплатить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rates__item item">
+                <div class="rates__item-wrp">
+                    <div class="rates__item-header">
+                        <span class="rates__item-badge">АКЦИЯ</span>
+                        <span class="rates__item-badge">НОВИНКА</span>
+                        <span class="rates__item-badge">ХИТ</span>
+                    </div>
+                    <div class="rates__item-body">
+                        <div class="rates__image-placeholder">
+                            <img src="images/placeholder.svg" alt="Image Placeholder">
+                        </div>
+                        <p class="rates__item-title">Лайт</p>
+                        <ul class="rates__item-details">
+                            <li>Visa, Master Card, МИР <strong>3,7%</strong></li>
+                            <li>Apple Pay, Android Pay <strong>3,7%</strong></li>
+                            <li>Электронные кошельки <strong>3,7%</strong></li>
+                            <li>Оборот <strong>от 0 до 200 т.р.</strong></li>
+                        </ul>
+                        <div class="rates__item-price">
+                            <span class="rates__price-old" style="display: none;">120 000 ₽</span>
+                            <span class="rates__price-new">120 000 ₽</span>
+                            <button class="rates__button">Оплатить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more rate items as needed -->
+        </div>
+    </section>
+
+    <!-- Кнопка для открытия меню -->
+    <div id="my-menu">
+        <ul>
+            <li><a href="#/">Главная</a></li>
+            <li><a href="#/about">О нас</a></li>
+            <li><a href="#/services">Услуги</a></li>
+            <li><a href="#/contact">Контакты</a></li>
+        </ul>
+    </div>
+
+    <!-- Контейнер для кнопки -->
+    <nav id="menu-button-container">
+        <a href="#my-menu" id="menu-button">Меню</a>
+    </nav>
+
+    <!-- Основное содержание -->
+    <div id="page-content">
+        <!-- Ваш основной контент здесь -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.slider-one').owlCarousel({
+            items: 1,
+            loop: true,
+            center: false,
+            margin: 0,
+            URLhashListener: true,
+            autoplayHoverPause: true,
+            startPosition: 'URLHash',
+            autoWidth: false,
+            nav: true,
+            navText: ['<', '>'],
+            dots: false,
+        });
+    </script>
+    <script>
+        $('.slider-two').owlCarousel({
+            items: 4,
+            loop: true,
+            center: false,
+            margin: 30,
+            URLhashListener: true,
+            autoplayHoverPause: true,
+            startPosition: 'URLHash',
+            autoWidth: false,
+            nav: true,
+            navText: ['<', '>'],
+            dots: false,
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            new Mmenu("#my-menu", {
+                extensions: ["pagedim-black", "theme-dark"],
+                navbar: {
+                    title: "Навигация"
+                },
+                navbars: [
+                    {
+                        position: "top",
+                        content: [
+                            "prev",
+                            "title",
+                            "close"
+                        ]
+                    }
+                ]
+            });
+
+            // Настройка кнопки открытия меню
+            const menuButton = document.querySelector("#menu-button");
+            const API = Mmenu("#my-menu").API;
+            menuButton.addEventListener("click", (e) => {
+                e.preventDefault();
+                API.open();
+            });
+        });
+    </script>
+</body>
+
+</html>
